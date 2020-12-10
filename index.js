@@ -1,1 +1,2 @@
-fetch("./Cidades.json").then(res => res.json()).then(console.log)
+let cities = Promise.resolve(fetch("./Cidades.json").then(res => res.json()));
+console.log(cities)
