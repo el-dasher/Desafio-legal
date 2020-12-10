@@ -1,1 +1,1 @@
-
+fetch("./Cidades.json").then(res => res.json()).then(console.log)
